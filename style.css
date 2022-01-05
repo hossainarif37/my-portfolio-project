@@ -15,6 +15,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -38,4 +39,19 @@ section {
 #top-banner {
     background: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.download-btn {
+    text-decoration: none;
+    background: linear-gradient(to right, #d18080, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+#dream-big {
+    background: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
