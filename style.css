@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+    font-family: Poppins, sans-serif;
+    margin: 0px;
 }
 
 h1 {
@@ -29,21 +29,19 @@ h1 {
 
 .hireMeBtn {
     text-decoration: none;
-    background: linear-gradient(to right, #d18080, tomato);
+    background: linear-gradient(to right, rgb(209, 128, 128), tomato);
     padding: 10px 40px;
     color: white;
-    border-radius: 5px;
     font-weight: 700;
 }
 
 .top-banner {
-    background: url(images/top-banner.png);
-    background-repeat: no-repeat;
+    background: url("images/top-banner.png") no-repeat;
 }
 
 .download-btn {
     text-decoration: none;
-    background: linear-gradient(to right, #d18080, tomato);
+    background: linear-gradient(to right, rgb(209, 128, 128), tomato);
     padding: 10px 40px;
     color: white;
     font-weight: 700;
@@ -51,16 +49,38 @@ h1 {
 }
 
 .dream-big {
-    background: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
+    background: url("images/dream-bg.png") right center no-repeat;
+}
+
+h1#experience-title {
+    margin-left: 65px;
 }
 
 .experience-single {
-    box-shadow: 10px 10px 50px grey;
-    font-size: 40px;
+    box-shadow: grey 10px 10px 50px;
     width: 40%;
     margin-left: 5%;
-    margin-right: 5%;
-    padding: 20px;
+    padding: 20px 20px 150px;
+}
+
+#experience-area {
+    background: url("images/exp-bg.png") left center no-repeat;
+}
+
+.experience-single h1 {
+    font-size: 40px;
+}
+
+#experience-right {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+div#experience-left {
+    border-left: 7px solid #f77e68;
+}
+
+footer {
+    text-align: center;
 }
