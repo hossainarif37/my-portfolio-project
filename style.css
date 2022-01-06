@@ -9,11 +9,11 @@ h1 {
     font-size: 50px;
 }
 
-.myName {
+.orange-color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -36,7 +36,7 @@ section {
     font-weight: 700;
 }
 
-#top-banner {
+.top-banner {
     background: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -50,8 +50,17 @@ section {
     border-radius: 5px;
 }
 
-#dream-big {
+.dream-big {
     background: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-single {
+    box-shadow: 10px 10px 50px grey;
+    font-size: 40px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
 }
